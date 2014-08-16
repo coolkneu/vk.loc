@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>Register</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=windws-1251" />
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="index,follow" />
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<h1>Регистрация</h1>
+	<h1>Авторизация</h1>
 	<div class="Authorization">
 		<div class="abody">
 			<a href="http://mysite.ua/registration.php" class="lost">Напомнить пароль?</a>
@@ -24,7 +24,7 @@
 		</div>
 		<div class="afooter">
 			<button type="submit" onclick="">ВОЙТИ</button>
-			<a href="/vk.loc.html" class="akaunt">Новый аккаунт</a>
+			<a href="/vk.loc.php" class="akaunt">Новый аккаунт</a>
 		</div>
 </body>
 </html>

@@ -29,7 +29,7 @@
 				<li><input type="password" name="password" placeholder="Пароль"/></li>
 		</ul>	
 		<div class="button">
-			<input type="submit" name="submit" value="Зарегестрироваться"/>
+			<input type="submit" name="submit" value="Зарегистрироваться"/>
 		</div>
 		</form>
 </body>

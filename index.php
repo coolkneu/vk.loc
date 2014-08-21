@@ -6,7 +6,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="index,follow" />
-	<link rel="stylesheet" type="text/css" href="register.css" />
+	<link rel="stylesheet" type="text/css" href="authorization.css" />
 </head>
 
 <body>

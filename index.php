@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+п»ї<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<title>mysite.ua</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="index,follow" />
@@ -10,21 +10,21 @@
 </head>
 
 <body>
-	<h1>Авторизация</h1>
+	<h1>РђРІС‚РѕСЂРёР·Р°С†РёСЏ</h1>
 	<form method="POST" align="" class="Authorization">
 		<div class="abody">
-			<a href="http://mysite.ua/registration.php" class="lost">Напомнить пароль?</a>
-			<p class="login">ВОЙТИ</p>
+			<a href="http://mysite.ua/registration.php" class="lost">РќР°РїРѕРјРЅРёС‚СЊ РїР°СЂРѕР»СЊ?</a>
+			<p class="login">Р’РћР™РўР</p>
 			  <div class="field">
-					<input type="text" name="login" placeholder="Логин"/>
+					<input type="text" name="login" placeholder="Р›РѕРіРёРЅ"/>
 					<input type="text" name="email" placeholder="Email"/>
-					<input type="password" name="password" placeholder="Пароль"/>
+					<input type="password" name="password" placeholder="РџР°СЂРѕР»СЊ"/>
 			  </div>
-			  <p><input type="checkbox" name="remember" class="remember">Запомнить пароль</p>
+			  <p><input type="checkbox" name="remember" class="remember">Р—Р°РїРѕРјРЅРёС‚СЊ РїР°СЂРѕР»СЊ</p>
 		</div>
 		<div class="afooter">
-			<input type="submit" value="Войти"/>
-			<a href="/registration.php" class="akaunt">Новый аккаунт</a>
+			<input type="submit" value="Р’РѕР№С‚Рё"/>
+			<a href="/registration.php" class="akaunt">РќРѕРІС‹Р№ Р°РєРєР°СѓРЅС‚</a>
 		</div>
 	</form>
 </body>

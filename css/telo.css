@@ -1,0 +1,11 @@
+body {
+background: url(../fonts/font.png);
+margin: 0px;
+padding: 0px;
+}
+.main{
+margin: 0px;
+padding: 0px;
+height:870px;
+overflow:hidden;
+}

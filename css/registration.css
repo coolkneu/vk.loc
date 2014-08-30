@@ -1,0 +1,76 @@
+.Registration{
+background:#FFFFFF;
+width: 500px;
+padding: 30px;
+height: 320px;
+margin-top:0px;
+margin: 0 auto;
+}
+.text_login{
+margin-top:100px;
+height:60px;
+font: 14px Arial, Tahoma, sans-serif;
+color:#63a634;
+text-align: center;
+padding:0px;
+overflow: hidden;
+}
+
+h2{
+font: solid 30px Arial, Tahoma, sans-serif;
+text-align: center;
+margin:0px;
+padding:0 0 5px 0;
+color:#63a634;
+}
+.polosa{
+width: 480px;
+height:2px;
+background:#000000;
+margin:20px auto;
+}
+
+.nazvanie {
+width: 150px;
+height: 200px;
+margin-left: 0px;
+margin-top:-5px;
+float:left;
+}
+.nazvanie p{
+margin: 0px;
+padding:0px;
+text-align: right;
+line-height:41px;
+}
+.field {
+list-style: none;
+padding:0px;
+margin:0px;
+}
+
+.field  input{
+margin-bottom:12px;
+margin-left: 10px;
+margin-right: 5px;
+width: 210px;
+font: 12px Arial, Tahoma, sans-serif;
+border: 1px solid #D2D9DC;
+border-radius: 3px;
+padding: 5px 8px;
+}
+
+.button input{
+width: 300px;
+margin: 0 90px 0 110px;
+padding: 10px;
+border-radius: 0px;
+background:#63a634;
+color:#FFF;
+border: transparent;
+font: 18px Arial, Tahoma, sans-serif;
+}
+.error {
+color: red;
+font: 10px Arial, Tahoma, sans-serif;
+}

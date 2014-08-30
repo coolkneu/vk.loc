@@ -6,38 +6,14 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="robots" content="index,follow" />
-	<script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
-	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
-	<script src="js/myscripts.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="registration.css" />
+	<link rel="stylesheet" type="text/css" href="../css/telo.css" />
 </head>
 
 <body>
-		<form method="POST" align="index.php" class="Registration" id="loginform">
-			<h1>Регистрация</h1>
-			<div class="polosa"></div>
-			<div class="nazvanie">
-				<p>Логин</p>
-				<p>Электронная почта</p>
-				<p>Дата рождения</p>
-				<p>Пароль</p>
-			</div>
-		<ul class="field">
-				<li><input type="text" name="login" placeholder="Логин"/></li>
-				<li><input type="text" name="email" placeholder="Email"/></li>
-				<li><input type="text" name="date" placeholder="Дата рождения"/></li>
-				<li><input type="password" name="password" placeholder="Пароль"/></li>
-		</ul>	
-		<div class="button">
-			<input type="submit" name="submit" value="Зарегистрироваться"/>
-		</div>
-		</form>
+	<?php include('template/header.php'); ?>
+	<section class="main">
+		<?php include('template/registration_body.php'); ?>
+	</section>
+	<?php include('template/footer.php'); ?>
 </body>
 </html>
-<?php
-	if($_POST['login'] != "" && $_POST['email'] != "" && $_POST['date'] != "" && $_POST['password'] != "")
-	{$db=new
-	PDO('mysql:host=localhost;dbname=vk;charset=utf8', 'root', '');
-	$db->query('insert into users (email, login, date, password) values ("' . $_POST['email'] . '", "' . $_POST['login'] . '","'. $_POST['date'] .'", "' . $_POST['password'] . '")');
-}
-?>

@@ -16,7 +16,7 @@ $(document).ready(function(){
                 required: true,
             },
 			
-			 password:{
+			 pass:{
                 required: true,
             },
        },
@@ -35,7 +35,7 @@ $(document).ready(function(){
                 required: "Поле не заполнено",              
             },
         
-			password:{
+			pass:{
                 required: "Поле не заполнено",
             },
        }

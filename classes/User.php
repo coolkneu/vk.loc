@@ -1,17 +1,18 @@
 <?php 
-class User{
-	const TABLE = 'users';
-	const DBNAME = 'vk';
+include ('Db.php');
 
-	public $db = false;
+class User extends DB{
+
+	const TABLE = 'users';
+
 	public $result = false;
 
-	public function __construct() {
-		$this->db = new PDO('mysql:host=localhost;dbname=' . self::DBNAME . ';charset=utf8', 'root', '1234');
-		$this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	}
-
 	public function registration($data) {
+		$conn = $this->db->prepare("SELECT `email` FROM `users` WHERE `email`=:email");
+		$conn->bindParam(':email', $data['email']);
+		$row = $conn->fetch(PDO::FETCH_ASSOC);
+		if(!$row){
+		
 		$insert = $this->db->prepare('insert into '. self::TABLE .'(login, email, date, pass) VALUES (:login, :email, :date, :pass)');
 		$insert->bindParam(':login', $data['login']);
 		$insert->bindParam(':email', $data['email']);
@@ -20,10 +21,12 @@ class User{
 		
 		try{
 			$insert->execute();
+			$this->id1 = $this->db->lastinsertid();
 			$this->result = 'Hello ' . $data['login'];
 		} catch(Exception $e) {
 			$this->result = $e->getMessage();
 		}
+	}
 	}
 }
 

@@ -6,6 +6,8 @@ if(!empty($_POST['login']) and !empty($_POST['email']) and !empty($_POST['date']
 	$user = new User();
 	$user->registration($_POST);
 	$result = $user->result;
+	$result1 = $user->id1;
+
 }
 ?>
 
@@ -27,6 +29,7 @@ if(!empty($_POST['login']) and !empty($_POST['email']) and !empty($_POST['date']
 	<div  class="text_login">
 		<?php if(isset($result)): ?>
 			<p><?php echo $result; ?></p>
+			<p><?php echo $result1; ?></p>
 		<?php endif; ?>
 	</div>
 	<form method="POST" align="" class="Registration" id="loginform">
